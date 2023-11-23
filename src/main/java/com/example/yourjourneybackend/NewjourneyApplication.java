@@ -10,4 +10,8 @@ public class NewjourneyApplication {
 		SpringApplication.run(NewjourneyApplication.class, args);
 	}
 
+
+	
 }
+
+// # spring.data.mongodb.uri=mongodb+srv://hsiskesks:ram@cluster0.lxcxcld.mongodb.net/yourjourney

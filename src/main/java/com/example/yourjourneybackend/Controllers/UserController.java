@@ -26,6 +26,7 @@ public class UserController {
 
     @GetMapping("/user")
     public ResponseEntity<User> giveUser() {
+        userservice.addUser("2", List.of());
 
         return ResponseEntity.status(HttpStatus.OK).body(new User("5"));
     }
